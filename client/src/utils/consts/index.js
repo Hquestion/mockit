@@ -2,7 +2,8 @@ export const HttpMethods = {
   GET: "GET",
   PUT: "PUT",
   POST: "POST",
-  DELETE: "DELETE"
+  DELETE: "DELETE",
+  PATCH: "PATCH"
 };
 
 export const StatusCodes = {
@@ -10,7 +11,8 @@ export const StatusCodes = {
   CREATED: "201",
   NO_CONTENT: "204",
   BAD_REQUEST: "400",
-  FORBIDDEN: "401",
+  UNAUTHORIZATION: '401',
+  FORBIDDEN: "403",
   INTERNAL_SERVER_ERROR: "500"
 };
 
